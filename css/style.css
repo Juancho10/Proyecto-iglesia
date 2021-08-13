@@ -119,6 +119,10 @@ a{
     color: var(--blanco);
     font-size: 1.8rem;
 }
+.navegacion__enlace:hover{
+    color: var(--primario);
+
+}
 .vivo{
     background-color: var(--blanco);
     padding: .1rem 1rem;
