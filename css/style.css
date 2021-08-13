@@ -60,3 +60,13 @@ a{
 .centrar-texto{
     text-align: center;
 }
+
+/** Encabezado*/
+
+.encabezado{
+    height: 68rem;
+    background-image: url(../img/encabezado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
