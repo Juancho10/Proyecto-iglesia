@@ -90,6 +90,15 @@ a{
     font-style: italic;
     font-weight: 300;
 }
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
+.logo__imagen{
+    max-width: 10rem;
+    margin-right: 2rem;
+    padding-left: 2rem;
+}
 /*navegacion*/
 .barraNavegacion{
     padding-top: 2rem;
@@ -107,7 +116,7 @@ a{
         /*gap: 1.8rem;*/
     }
     .navegacion__enlace{
-        margin-right: 2rem;
+        margin-right: 5rem;
     }
     .navegacion__enlace:last-of-type{
         margin: 0;
@@ -119,14 +128,17 @@ a{
     color: var(--blanco);
     font-size: 1.8rem;
 }
+.navegacion__enlace--prueba{
+    color: var(--primario);
+}
 .navegacion__enlace:hover{
     color: var(--primario);
-
 }
 .vivo{
     background-color: var(--blanco);
-    padding: .1rem 1rem;
+    padding: 0 1rem;
     border-radius: 2rem;
+    margin-left: 2rem;
 }
 .vivo:hover{
     cursor: pointer;
@@ -134,7 +146,6 @@ a{
 }
 .navegacion__enlace--letra{
     color: var(--negro);
-    letter-spacing: 0.2rem;
     font-weight: 700;
 }
 .navegacion__enlace--letra:hover{
