@@ -128,17 +128,17 @@ a{
     color: var(--blanco);
     font-size: 1.8rem;
 }
-.navegacion__enlace--prueba{
+/* .navegacion__enlace--prueba{
     color: var(--primario);
-}
+} */
 .navegacion__enlace:hover{
     color: var(--primario);
 }
+/* en vivo*/
 .vivo{
     background-color: var(--blanco);
     padding: 0 1rem;
     border-radius: 2rem;
-    margin-left: 2rem;
 }
 .vivo:hover{
     cursor: pointer;
